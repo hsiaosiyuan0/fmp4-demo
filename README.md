@@ -22,6 +22,6 @@
 3. 将 initialization segment 添加到先前打开的 [SourceBuffer](https://developer.mozilla.org/en-US/docs/Web/API/SourceBuffer) 中，这样 MSE 内部就获得了视频元数据
 4. 利用 downloader 从第一个分段开始加载，即加载 [media segment](https://w3c.github.io/media-source/isobmff-byte-stream-format.html#iso-media-segments)
 5. 如果接收到 seek 操作，测根据跳转的时间定位到分段的偏移量，利用 downloader 加载
-6. downloader 加载好的数据先交给 mp4box 组装，组装完成一个分段即调用 onSegment 回调
+6. downloader 加载好的数据先交给 mp4box 组装，每当其组装完成一个分段就会调用 onSegment 回调
 7. 在 onSegment 回到中，拿到的就是经过 mp4box 组装好的，可以追加到 SourceBuffer 中的分段数据，所以进行追加操作
  
