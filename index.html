@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="/favicon/favicon-96x96.png"
+    />
+
+    <title>MSE</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      #app {
+        text-align: center;
+      }
+
+      video {
+        margin-top: 20vh;
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <video width="500" controls></video>
+    </div>
+    <script src="https://unpkg.com/mp4box@0.3.20/dist/mp4box.all.js"></script>
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>
