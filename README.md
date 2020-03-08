@@ -10,7 +10,7 @@
 ## 项目简单说明
 
 - `svrx` 命令是 [Server-X](https://github.com/svrxjs/svrx) 
-- `-p http-ranges@0.0.3` 选项是启用 [svrx-plugin-http-ranges](https://github.com/hsiaosiyuan0/svrx-plugin-http-ranges) 用作简单地支持 HTTP Range 请求，结合到一起就是在本地以项目目录为根目录，启动一个支持 HTTP Range 请求的 Web 服务
+- `-p http-ranges@0.0.5` 选项是启用 [svrx-plugin-http-ranges](https://github.com/hsiaosiyuan0/svrx-plugin-http-ranges) 用作简单地支持 HTTP Range 请求，结合到一起就是在本地以项目目录为根目录，启动一个支持 HTTP Range 请求的 Web 服务
 - 主要代码都在 [app.js](https://github.com/hsiaosiyuan0/fmp4-demo/blob/master/app.js) 中
 - [1.mp4](https://github.com/hsiaosiyuan0/fmp4-demo/blob/master/1.mp4) 是演示用的视频
 - 下载分段数据的任务通过 [Downloader](https://github.com/hsiaosiyuan0/fmp4-demo/blob/master/downloader.js) 完成
