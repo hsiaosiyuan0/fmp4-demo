@@ -5,7 +5,7 @@
 ## 启动步骤
 
 1. `npm install -g @svrx/cli`
-2. 进入项目目录运行 `svrx -p http-ranges@0.0.3`
+2. 进入项目目录运行 `svrx -p http-ranges@0.0.5`
  
 ## 项目简单说明
 
