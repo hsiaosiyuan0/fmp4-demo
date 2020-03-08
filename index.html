@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
     <link
       rel="icon"
@@ -23,14 +23,16 @@
       }
 
       video {
-        margin-top: 20vh;
+        margin-top: 10vh;
         outline: none;
+        width: 80vw;
+        max-width: 500px;
       }
     </style>
   </head>
   <body>
     <div id="app">
-      <video width="500" controls></video>
+      <video controls></video>
     </div>
     <script src="https://unpkg.com/mp4box@0.3.20/dist/mp4box.all.js"></script>
     <script src="/app.js" type="module"></script>
